@@ -1,0 +1,344 @@
+/* General aparience configuration */
+html, body {
+  background: #E2E4F3;
+  box-sizing: border-box;
+  font-family: serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0;
+}
+
+a::after {
+  content: '';
+}
+
+
+/* Containers Settings */
+.container {
+  box-sizing: border-box;
+  display: block;
+  padding: 23px 0 23px 0;
+}
+
+.container::after,
+.col-threequarter::after,
+.col-fifth::after,
+.col-quarter::after,
+.col-third::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Sections Settings */
+
+.section {
+  display: block;
+  padding-top: 128px;
+}
+
+.section::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Widths */
+
+.full-width {
+  width: 100%;
+}
+
+/* Responsive */
+
+@media (min-width: 993px) {
+  .hide-large {
+    display: none !important;
+  }
+
+  .col-half {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .col-third {
+    display: inline-block;
+    width: 33.333%;
+  }
+
+  .col-quarter {
+    display: inline-block;
+    width: 25%;
+  }
+
+  .col-threequarter {
+    display: inline-block;
+    width: 75%;
+  }
+
+  .col-fifth {
+    display: inline-block;
+    width: 20%;
+  }
+
+  .col-sixth {
+    width: calc(100% / 6);
+  }
+}
+
+@media (max-width: 992px) and (min-width: 601px) {
+  .hide-medium {
+    display: none !important;
+  }
+
+  .col-half {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .col-third {
+    display: inline-block;
+    width: 33.333%;
+  }
+
+  .col-quarter {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .col-threequarter {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .col-fifth {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .col-sixth {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .hide-small {
+    display: none !important;
+  }
+
+  .col-half,
+  .col-third,
+  .col-quarter,
+  .col-threequarter,
+  .col-fifth,
+  .col-sixth {
+    width: 100%;
+  }
+}
+
+
+/* floats */
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left::after,.float-right::after {
+  clear: both;
+}
+
+
+/* Text Alignment */
+.t-center {
+  text-align: center;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.t-top {
+  vertical-align: top;
+}
+
+.t-middle {
+  vertical-align: middle;
+}
+
+.t-bottom {
+  vertical-align: bottom;
+}
+
+
+/* Font Sizes */
+.tiny {
+  font-size: 10px !important;
+}
+
+.small {
+  font-size: 12px !important;
+}
+
+.medium {
+  font-size: 15px !important;
+}
+
+.large {
+  font-size: 18px !important;
+}
+
+.xlarge {
+  font-size: 24px !important;
+}
+
+.xxlarge {
+  font-size: 36px !important;
+}
+
+.xxxlarge {
+  font-size: 48px !important;
+}
+
+.jumbo {
+  font-size: 64px !important;
+}
+
+.extra-jumbo {
+  font-size: 100px !important;
+}
+
+
+/* Relative Displays */
+.display-bottomleft {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.display-bottomright {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+
+.display-container {
+  position: relative;
+}
+
+.display-left {
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%,-50%);
+}
+
+.display-middle {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.display-topleft {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.display-topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.display-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0%,-50%);
+}
+
+.display-topmiddle {
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%,0%);
+}
+
+.display-bottommiddle {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,0%);
+}
+
+
+/* Displays */
+
+.display-inline-block {
+  display: inline-block;
+}
+
+
+/* Font Settings */
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-family: 'Signika', sans-serif;
+  font-size: 30px;
+}
+
+.button-text {
+  box-sizing: border-box;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding: 5px 30px;
+}
+
+
+/* Cursor */
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+
+/* Borders */
+
+.right-border{
+  border-right: solid #2B326466 1px;
+  box-sizing: border-box;
+}
+
+.left-border{
+  border-left: solid #2B326466 1px;
+  box-sizing: border-box;
+}
+
+.bottom-border{
+  border-bottom: solid #2B326466 1px;
+  box-sizing: border-box;
+}
+
+.circle-border {
+  border-radius: 50%;
+}

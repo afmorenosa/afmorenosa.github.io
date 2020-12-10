@@ -1,0 +1,60 @@
+/* Main menu */
+
+.main-menu {
+  background-color: #5292B7;
+  border-bottom: 3px solid #462255;
+}
+
+.menu-item {
+  height: 34px;
+}
+
+.menu-item:hover {
+  background-color: #427C9E;
+}
+
+@media (min-width: 993px) {
+  .logo {
+    box-sizing: border-box;
+    height: 34px;
+    padding: 0 10px 9px 0;
+    width: 300px;
+  }
+
+  .logo-svg {
+    background-color: #5292B7;
+    border-bottom: 3px solid #462255;
+    border-right: 3px solid #462255;
+    height: 40px;
+    padding: 0 10px;
+  }
+
+  .main-menu {
+    height: 34px;
+  }
+
+  .title {
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 601px) {
+  .main-menu {
+    height: 50px;
+  }
+
+  .title {
+    padding-top: 20px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .main-menu {
+    height: 75px;
+  }
+
+  .title {
+    padding: 17px;
+  }
+}
