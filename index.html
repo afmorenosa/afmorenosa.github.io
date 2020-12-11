@@ -6,49 +6,58 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- CSS -->
   <link rel="stylesheet" href="/css/style.css"/>
   <link rel="stylesheet" href="/css/home.css"/>
   <link rel="stylesheet" href="/css/icons.css"/>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
 
-  <div class="main-menu full-width display-container display-inline-block">
+  <header>
 
-    <a class="logo" href="#">
-      <img src="/assets/logo.svg" class="logo-svg">
-    </a>
+    <!-- Navigation bar -->
+    <nav class="main-menu full-width display-container display-inline-block">
 
-    <div class="display-inline-block display-right hide-small hide-medium">
-      <a href="#" class="menu-item button-text medium left-border float-right">Contact me</a>
-      <a href="#" class="menu-item button-text medium left-border float-right">Support me</a>
-      <a href="#" class="menu-item button-text medium left-border float-right">Personal Projects</a>
-      <a href="#" class="menu-item button-text medium left-border float-right">Experience</a>
-      <a href="#" class="menu-item button-text medium left-border float-right">Education</a>
-      <a href="#" class="menu-item button-text medium left-border float-right">About me</a>
+      <!-- Navigation buttons -->
+      <div class="display-inline-block display-right hide-small hide-medium">
+        <a href="#" class="menu-item button-text medium left-border float-right">Contact me</a>
+        <a href="#" class="menu-item button-text medium left-border float-right">Support me</a>
+        <a href="#" class="menu-item button-text medium left-border float-right">Personal Projects</a>
+        <a href="#" class="menu-item button-text medium left-border float-right">Experience</a>
+        <a href="#" class="menu-item button-text medium left-border float-right">Education</a>
+        <a href="#" class="menu-item button-text medium left-border float-right">About me</a>
+      </div>
+
+      <!-- Buttons menu for small screens -->
+      <div class="hide-large">
+
+        <div id="menu" class="pointer material-icons md-dark md-36 display-right menu"
+        href="javascript:void(0)" onclick="openSlider()">menu</div>
+
+      </div>
+
+    </nav>
+
+    <!-- Slide menu for small screns -->
+    <div id="slider" class="slider float-right hide-large t-center">
+      <a href="#" class="display-block menu-item button-text large">About me</a>
+      <a href="#" class="display-block menu-item button-text large">Education</a>
+      <a href="#" class="display-block menu-item button-text large">Experience</a>
+      <a href="#" class="display-block menu-item button-text large">Personal Projects</a>
+      <a href="#" class="display-block menu-item button-text large">Support me</a>
+      <a href="#" class="display-block menu-item button-text large">Contact me</a>
     </div>
 
-    <div class="hide-large">
-
-      <div id="menu" class="pointer material-icons md-dark md-36 display-right menu"
-      href="javascript:void(0)" onclick="openSlider()">menu</div>
-
-    </div>
-
-  </div>
-
-  <div id="slider" class="slider float-right hide-large t-center">
-    <a href="#" class="display-block menu-item button-text large">About me</a>
-    <a href="#" class="display-block menu-item button-text large">Education</a>
-    <a href="#" class="display-block menu-item button-text large">Experience</a>
-    <a href="#" class="display-block menu-item button-text large">Personal Projects</a>
-    <a href="#" class="display-block menu-item button-text large">Support me</a>
-    <a href="#" class="display-block menu-item button-text large">Contact me</a>
-  </div>
+  </header>
 
   <script src="/js/slider.js"></script>
 </body>

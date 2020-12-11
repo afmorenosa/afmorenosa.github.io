@@ -1,6 +1,6 @@
 /* General aparience configuration */
 html, body {
-  background: #E2E4F3;
+  background: #D4D7ED;
   box-sizing: border-box;
   font-family: serif;
   height: 100%;
@@ -315,7 +315,7 @@ p {
 .button-text {
   box-sizing: border-box;
   font-family: 'Merriweather Sans', sans-serif;
-  padding: 5px 15px;
+  padding: 10px 15px;
 }
 
 
