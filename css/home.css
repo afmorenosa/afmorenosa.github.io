@@ -51,6 +51,7 @@
   .slider {
     background-color: #5292B7;
     height: 100%;
+    overflow: hidden;
     transition: 0.5s;
     width: 0;
   }
@@ -75,6 +76,7 @@
   .slider {
     background-color: #5292B7;
     height: 100%;
+    overflow: hidden;
     transition: 0.5s;
     width: 0;
   }
