@@ -5,8 +5,8 @@
   border-bottom: 3px solid #462255;
 }
 
-.menu-item {
-  height: 34px;
+.menu {
+  padding-right: 10px;
 }
 
 .menu-item:hover {
@@ -33,8 +33,8 @@
     height: 34px;
   }
 
-  .title {
-    padding: 6px 10px;
+  .menu-item {
+    height: 34px;
   }
 }
 
@@ -43,8 +43,16 @@
     height: 50px;
   }
 
-  .title {
-    padding-top: 20px;
+  .menu-item {
+    height: 55px;
+    padding: 15px 0;
+  }
+
+  .slider {
+    background-color: #5292B7;
+    height: 100%;
+    transition: 0.5s;
+    width: 0;
   }
 }
 
@@ -54,7 +62,20 @@
     height: 75px;
   }
 
-  .title {
-    padding: 17px;
+  .menu-item {
+    height: 55px;
+    padding: 15px 0;
+  }
+
+  .logo-svg {
+    height: 40px;
+    padding: 15px 10px;
+  }
+
+  .slider {
+    background-color: #5292B7;
+    height: 100%;
+    transition: 0.5s;
+    width: 0;
   }
 }

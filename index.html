@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Andres Moreno | Inicio</title>
+<head>
+  <meta charset="utf-8">
+  <title>Andres Moreno | Inicio</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/css/style.css"/>
-    <link rel="stylesheet" href="/css/home.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-  </head>
+  <link rel="stylesheet" href="/css/style.css"/>
+  <link rel="stylesheet" href="/css/home.css"/>
+  <link rel="stylesheet" href="/css/icons.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap">
+</head>
 
-  <body>
+<body>
 
-    <div class="main-menu full-width display-container display-inline-block">
+  <div class="main-menu full-width display-container display-inline-block">
 
-      <a class="logo" href="#">
-        <img src="/assets/logo.svg" class="logo-svg">
-      </a>
+    <a class="logo" href="#">
+      <img src="/assets/logo.svg" class="logo-svg">
+    </a>
 
-      <div class="display-inline-block col-half display-right hide-small hide-medium">
-        <a href="#" class="menu-item button-text large left-border float-right">Personal Projects</a>
-        <a href="#" class="menu-item button-text large left-border float-right">Experience</a>
-        <a href="#" class="menu-item button-text large left-border float-right">Education</a>
-        <a href="#" class="menu-item button-text large left-border float-right">About me</a>
-      </div>
+    <div class="display-inline-block display-right hide-small hide-medium">
+      <a href="#" class="menu-item button-text large left-border float-right">Personal Projects</a>
+      <a href="#" class="menu-item button-text large left-border float-right">Experience</a>
+      <a href="#" class="menu-item button-text large left-border float-right">Education</a>
+      <a href="#" class="menu-item button-text large left-border float-right">About me</a>
+    </div>
+
+    <div class="hide-large">
+
+      <div id="menu" class="pointer material-icons md-dark md-36 display-right menu"
+      href="javascript:void(0)" onclick="openSlider()">menu</div>
 
     </div>
 
-  </body>
+  </div>
+
+  <div id="slider" class="slider float-right hide-large t-center">
+    <a href="#" class="display-block menu-item button-text large">About me</a>
+    <a href="#" class="display-block menu-item button-text large">Education</a>
+    <a href="#" class="display-block menu-item button-text large">Experience</a>
+    <a href="#" class="display-block menu-item button-text large">Personal Projects</a>
+  </div>
+
+  <script src="/js/slider.js" charset="utf-8"></script>
+</body>
 </html>
