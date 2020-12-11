@@ -1,0 +1,75 @@
+/* Main menu */
+
+.main-menu {
+  background-color: #305B73;
+  /* border-bottom: 3px solid #462255; */
+}
+
+.menu {
+  padding-right: 20px;
+}
+
+.menu-item:hover {
+  background-color: #244556;
+}
+
+
+/* Responsive for the menu */
+
+@media (min-width: 993px) {
+  header,
+  .main-menu {
+    height: 42px;
+  }
+
+  .menu-item {
+    box-sizing: border-box;
+    color: white;
+    height: 42px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 601px) {
+  header,
+  .main-menu {
+    height: 50px;
+  }
+
+  .menu-item {
+    box-sizing: border-box;
+    height: 42px;
+    padding: 12px 0;
+  }
+
+  .slider {
+    background-color: #305B73;
+    height: 100%;
+    margin-top: 49px;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  header,
+  .main-menu {
+    height: 75px;
+  }
+
+  .menu-item {
+    box-sizing: border-box;
+    height: 42px;
+    padding: 12px 0;
+  }
+
+  .slider {
+    background-color: #305B73;
+    height: 100%;
+    margin-top: 74px;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 0;
+  }
+}

@@ -11,7 +11,7 @@ function openSlider() {
         closeSlider();
     } else {
         icon.innerHTML = "menu_open";
-        slider.style.width = "300px";
+        slider.style.width = "180px";
     }
 }
 

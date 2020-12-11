@@ -1,67 +1,37 @@
-/* Main menu */
+/* Presentation */
 
-.main-menu {
-  background-color: #305B73;
-  /* border-bottom: 3px solid #462255; */
+.welcome-image {
+  box-sizing: border-box;
 }
 
-.menu {
-  padding-right: 20px;
+.welcome {
+  box-sizing: border-box;
+  padding: 30px 5%;
+  margin-top: 10px;
 }
 
-.menu-item:hover {
-  background-color: #244556;
+.presentation {
+  box-sizing: border-box;
+  padding-top: 30px;
 }
 
 
-/* Responsive for the menu */
+/* Responsive for the presentation */
 
 @media (min-width: 993px) {
-  .main-menu {
-    height: 42px;
-  }
-
-  .menu-item {
-    height: 42px;
-    color: white;
+  .welcome-image {
+    padding: 2% 5%;
   }
 }
 
 @media (max-width: 992px) and (min-width: 601px) {
-  .main-menu {
-    height: 50px;
-  }
-
-  .menu-item {
-    height: 55px;
-    padding: 15px 0;
-  }
-
-  .slider {
-    background-color: #305B73;
-    height: 100%;
-    overflow: hidden;
-    transition: 0.5s;
-    width: 0;
+  .welcome-image {
+    padding: 7% 5%;
   }
 }
 
-
 @media (max-width: 600px) {
-  .main-menu {
-    height: 75px;
-  }
-
-  .menu-item {
-    height: 55px;
-    padding: 15px 0;
-  }
-
-  .slider {
-    background-color: #305B73;
-    height: 100%;
-    overflow: hidden;
-    transition: 0.5s;
-    width: 0;
+  .welcome-image {
+    padding: 0 5%;
   }
 }
