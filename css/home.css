@@ -1,13 +1,9 @@
 /* Presentation */
 
-.welcome-image {
+.description {
   box-sizing: border-box;
-}
-
-.welcome {
-  box-sizing: border-box;
-  padding: 30px 5%;
   margin-top: 10px;
+  padding: 30px 5%;
 }
 
 .presentation {
@@ -19,19 +15,19 @@
 /* Responsive for the presentation */
 
 @media (min-width: 993px) {
-  .welcome-image {
+  .section-image {
     padding: 2% 5%;
   }
 }
 
 @media (max-width: 992px) and (min-width: 601px) {
-  .welcome-image {
+  .section-image {
     padding: 7% 5%;
   }
 }
 
 @media (max-width: 600px) {
-  .welcome-image {
+  .section-image {
     padding: 0 5%;
   }
 }

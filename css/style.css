@@ -447,3 +447,10 @@ p {
 .blue-background {
   background: #6FA7C3;
 }
+
+
+/* Size */
+
+.border-box {
+  box-sizing: border-box;
+}
