@@ -53,6 +53,34 @@ a::after {
   width: 100%;
 }
 
+.width-tiny {
+  width: 12px;
+}
+
+.width-small {
+  width: 24px;
+}
+
+.width-medium {
+  width: 36px;
+}
+
+.width-large {
+  width: 48px;
+}
+
+.width-xlarge {
+  width: 52px;
+}
+
+.width-xxlarge {
+  width: 60px
+}
+
+.width-xxxlarge {
+    width: 84px;
+}
+
 
 /* Heights */
 
@@ -235,6 +263,7 @@ a::after {
 
 
 /* Font Sizes */
+
 .tiny {
   font-size: 10px !important;
 }
