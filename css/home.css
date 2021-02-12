@@ -11,6 +11,10 @@
   padding-top: 30px;
 }
 
+.section-image canvas{
+  border: 5px solid #602F75;
+}
+
 
 /* Responsive for the presentation */
 
@@ -18,16 +22,25 @@
   .section-image {
     padding: 2% 5%;
   }
+
+  .section-simulation {
+    padding: 5% 10%;
+  }
 }
 
 @media (max-width: 992px) and (min-width: 601px) {
   .section-image {
     padding: 7% 5%;
   }
+
+  .section-simulation {
+    padding: 7% 10%;
+  }
 }
 
 @media (max-width: 600px) {
-  .section-image {
+  .section-image,
+  .section-simulation {
     padding: 0 5%;
   }
 }

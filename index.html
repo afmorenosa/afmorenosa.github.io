@@ -81,8 +81,7 @@
 
         <div class="text t-center large presentation">
           I'm Andrés Felipe Moreno Sarria, a Colombian Physics and Mathematics
-          student and a freelancer that creates desktop applicastions and
-          physic simulations.
+          student with programming skills.
         </div>
 
         <div class="display-container button-container">
@@ -112,7 +111,7 @@
 
     <div class="container blue-background display-container">
 
-      <div class="col-twothird float-left project-preview description">
+      <div class="col-twothird float-left description">
 
         <div class="title t-center">
           One of my projects
@@ -157,34 +156,46 @@
 
     <div class="container container-display">
 
-      <div class="title t-center">
-        Connect with me!
+      <div class="col-third float-left border-box section-image">
+        <canvas id="three-bodies" class="full-width"></canvas>
       </div>
 
-      <div class="text t-center presentation large">
-        Get actualizations about my work and projects in GitHub and GitLab.
-      </div>
+      <div class="col-twothird float-left description">
 
-      <div class="display-container button-container">
+        <div class="title t-center">
+          My work!
+        </div>
 
-        <div class="display-middle">
+        <div class="text t-center presentation large">
+          Desktop applications, physic simulations, web pages and more in my
+          GitHub and GitLab repositories, click about to see them.
+        </div>
 
-          <a href="https://github.com/afmorenosa" class="display-inline-block button-text medium float-button purple-light-button">
-            <img class="width-xlarge" src="/assets/github.svg"/>
-          </a>
+        <div class="display-container button-container">
 
-          <a href="https://gitlab.com/afmorenosa" class="display-inline-block button-text medium float-button purple-light-button">
-            <img class="width-xlarge" src="/assets/gitlab.svg"/>
-          </a>
+          <div class="display-middle">
+
+            <a href="https://github.com/afmorenosa" class="display-inline-block button-text medium float-button purple-light-button">
+              <img class="width-large" src="/assets/github.svg"/>
+            </a>
+
+            <a href="https://gitlab.com/afmorenosa" class="display-inline-block button-text medium float-button purple-light-button">
+              <img class="width-large" src="/assets/gitlab.svg"/>
+            </a>
+
+          </div>
 
         </div>
 
       </div>
-
     </div>
 
   </div>
 
+  <script src="/js/simulation/vector.js"></script>
+  <script src="/js/simulation/system.js"></script>
+  <script src="/js/simulation/RK4.js"></script>
+  <script src="/js/simulation/simulation.js"></script>
   <script src="/js/slider.js"></script>
 </body>
 </html>
