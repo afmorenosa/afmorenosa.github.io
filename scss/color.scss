@@ -1,8 +1,8 @@
 /* General aparience configuration */
 html, body {
   font-family: 'Merriweather Sans', sans-serif !important;
+  scroll-behavior: smooth;
 }
-
 
 /* Fonts */
 
@@ -17,3 +17,16 @@ html, body {
 .t-text {
   font-family: 'Hind', sans-serif !important;
 }
+
+
+$primary: #A4A4CC;
+$secondary: #283044;
+$success: #8EC46E;
+$info: #78A1BB;
+$warning: #FBB13C;
+$danger: #D64550;
+$light: #EBF5EE;
+$dark: #000004;
+$white: #EBF5EE;
+
+@import "~bootstrap/scss/bootstrap.scss";
